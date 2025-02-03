@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "fixed-length-semantic-chunking"
+version = "0.1.0"
+description = ""
+authors = [
+    "vishnuennakkad@gmail.com"
+]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9.0,<3.13"
+cohere = "^5.13.11"
+unstructured = "^0.16.17"
+python-dotenv = "^1.0.1"
+oracledb = "^2.5.1"
+oci = "^2.143.1"
+langchain = "^0.3.17"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
